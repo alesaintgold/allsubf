@@ -1,0 +1,5 @@
+if you have all your git repository in the same parent folder, running:
+	# allsubf git pull
+will run "git pull" in every subfolder.
+You can run any other command rather than "git pull".
+You can specify the option -d followed by an integer and that will repeat the procedure recursively to the subfolders for d times
