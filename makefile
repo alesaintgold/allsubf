@@ -14,7 +14,8 @@ restore:
 	make delete
 	make makedirs
 
-update:
-	cp allsubf.sh /usr/local/bin/allsubf
+install:
+	sudo cp allsubf.sh /usr/local/bin/allsubf
 	sudo chmod +x /usr/local/bin/allsubf
-
+update:
+	sudo cp allsubf.sh /usr/local/bin/allsubf
